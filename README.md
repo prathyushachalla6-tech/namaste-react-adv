@@ -54,3 +54,25 @@ browserslist
 - if the app is government app it should supportd all the older browser versions
 - we can mention country specific also
 
+npm start ->  means -> npm run start -> it internally(behind the seen) consider inside package.json 
+
+// React.createElement -> ReactElement - JS object -> HTMLElement(render)
+//JSX is not html inside javascript -> it is html like or XML like syntax
+
+command: Remove-Item -Recurse -Force .parcel-cache -. It deletes the cache which is causing the issue
+npx parcel build index.html
+
+- JSX (transpiled before it reached the JS Engine) -> transpilation means conversion
+-JSX => React.createElemnt -> ReactElement - Js Object => Html element(render)
+transpilation is done by parcel
+-babel -> open source javascript compiler
+-use camelcase -> while using attributes in JSX
+-if the code is in multile lines wrap it in () -> because jsx has to understand where jsx starts and where it is ending
+todo -> install prettier , bracket pair coloriser,better comments
+- React Component -> 
+1.Class Based Components -> OLD way of writing code
+2.Functiona Components -> New or latest way of writing code
+-React Functional Component -> it is just a normal javascript function and it returns React Element
+- Component composition -> one component inside another component is called as Component Composition
+- {} -> any javascript code 
+
