@@ -76,3 +76,8 @@ todo -> install prettier , bracket pair coloriser,better comments
 - Component composition -> one component inside another component is called as Component Composition
 - {} -> any javascript code 
 
+<div>
+      //Header
+      //Body
+      //Footer
+    </div>
