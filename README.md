@@ -81,3 +81,6 @@ todo -> install prettier , bracket pair coloriser,better comments
       //Body
       //Footer
     </div>
+
+
+- Not using keys (not acceptable) <<<<<<<< index as a key <<<<<<<<<< unique id (best practice)
