@@ -95,3 +95,29 @@ export const ComponentName ;
 import {componentName} from "path";
 
 - when we have to export multipe things use name export.
+
+seperation of concern -> seperation project for BE,UI,DB,SMS,Email
+
+We have Two Approaches to fetch and display the data:
+1. Loads (page) as soon as the page loads - API As soon as the api responds - Render the UI
+2. Loads (page) - render - API - Re-render
+
+In React we always use second approach
+- It gives better UX
+
+What is Hook ?
+- A normal javascript function
+useEffect ->
+1.it takes two arguments 
+- callback functiom
+- dependency array
+
+- whenever the state variable changes i.e setBtnName('val')  react re-renders the dom. (triggers reconciliation algorith or react fiber) 
+- it will re-render the whole header component
+
+const [btn,setBtn]= useState('Login);
+Q. how const variable is getting updated ?
+A:whenever the value chages react re-renders the dom and creates a new instance of btn (each value has its own instance)
+
+- whenever state variables update , react triggers a reconciliation cycle(re-renders the component)
+

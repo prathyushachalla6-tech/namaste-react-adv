@@ -1,8 +1,7 @@
-import {CDN_URL} from '../utils/constants';
+import { CDN_URL } from '../utils/constants'
 const styleCard = {
   backgroundColor: '#f0f0f0'
 }
-
 
 const RestaurantCard = props => {
   const { resData } = props
@@ -24,4 +23,4 @@ const RestaurantCard = props => {
   )
 }
 
-export default RestaurantCard;
+export default RestaurantCard
