@@ -84,3 +84,14 @@ todo -> install prettier , bracket pair coloriser,better comments
 
 
 - Not using keys (not acceptable) <<<<<<<< index as a key <<<<<<<<<< unique id (best practice)
+
+Two types of Export/Import 
+
+export default ComponentName;
+import componentName from "path";
+
+
+export const ComponentName ;
+import {componentName} from "path";
+
+- when we have to export multipe things use name export.
